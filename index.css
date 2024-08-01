@@ -1,0 +1,144 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.navbar{
+justify-content: center;
+
+}
+header{
+    font-size: 100px;
+}
+.stat-box {
+    margin-top: 20px;
+    padding: 2rem;
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    transition: background-color 0.3s, color 0.3s;
+    box-shadow: 0 2px 4px rgb(0,0 0, 0.1);
+  }
+  .stat-box:hover {
+    background-color: #007bff;
+    color: #fff;
+    box-shadow: 0 8px 16px rgb(0,0 0, 0.2);
+    transform: scale(1.1);
+    transform: translateY(-60px);
+  }
+  
+  .oval-image {
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.card-body {
+    display: flex;
+    align-items: center;
+}
+.card-text {
+    margin-left: 20px; /* Adjust spacing between image and text */
+}
+.centered-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.more :hover{
+    background-color: #237442;
+    color: #fff;
+    box-shadow: 0 4px 8px rgb(0,0 0, 0.1);
+   
+}
+.card {
+    height: 100%;
+    width: 100%;
+}
+.card-img-top {
+    height: 200px; 
+    object-fit: cover; 
+}
+.card-body {
+    display: flex;
+    flex-direction: column;
+}
+.full-height {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.loon{
+    background-color: aqua;
+    height: 800px;
+
+}
+.circle-img {
+    width: 100px; 
+    height: 100px; 
+    border-radius: 50%; 
+    object-fit: cover;
+}
+.cardd-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap; 
+    padding: 20px;  
+}
+
+.cardd {
+    background-color: #fff;
+    border: 1px solid #e4d2d2;
+    border-radius: 10px;
+    width: 200px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: box-shadow 0.3s; 
+}
+
+.cardd img {
+    width: 100%;
+    height: auto; 
+    border-radius: 10px; 
+}
+
+.cardd h3 {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.cardd p {
+    margin: 0;
+    color: #dc3545; 
+}
+
+.cardd:hover {
+    box-shadow: 0 16px 32px rgba(0, 0, 0, 0.2);
+}
+.emai{
+background-color:#FFEED3;
+height: 300px;
+width: 100vw;
+}
+h1{
+font-weight: bolder;
+}
+.wight{
+    background-color: aliceblue;
+    height: 200px;
+width: 100vw;
+display: flex;
+justify-content: space-evenly;
+}
+a {
+    text-decoration: none;
+    color:green;
+}
+.end{
+    border-radius: 20px;
+    border: 1px solid #e4d2d2;
+    background-color: rgb(246, 252, 246);
+    display: flex;
+    justify-content: space-evenly;
+}
